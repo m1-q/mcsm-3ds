@@ -1,4 +1,4 @@
-# mcsm-3ds
+# mcsm-3ds <img src="icon.png" alt="MCSM 3DS Icon" width="32"/> 
 
 
 An unofficial port of **Minecraft: Story Mode** (Netflix Edition) for the Nintendo 3DS and 2DS family of systems.
