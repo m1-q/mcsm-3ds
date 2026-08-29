@@ -6,7 +6,10 @@ An unofficial port of **Minecraft: Story Mode** (Netflix Edition) for the Ninten
 
 Inspired by [mcsm_portable](https://github.com/entitybtw/mcsm_portable) (PSP port).
 
-<img width="420" alt="image" src="https://github.com/user-attachments/assets/69cca2c7-c9e7-40cd-b5b3-2dd8c9791de9" /> <img width="420" alt="image" src="https://github.com/user-attachments/assets/ac875009-dc15-482f-9e66-efa058b8bcf7" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/69cca2c7-c9e7-40cd-b5b3-2dd8c9791de9" width="48%" alt="image 1" />
+  <img src="https://github.com/user-attachments/assets/ac875009-dc15-482f-9e66-efa058b8bcf7" width="48%" alt="image 2" />
+</p>
 
 ---
 
