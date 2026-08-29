@@ -56,12 +56,12 @@ Inspired by [mcsm_portable](https://github.com/entitybtw/mcsm_portable) (PSP por
 
 ## Credits
 
-- Mojang & Telltale Games - Original Minecraft: Story Mode.
+- **Mojang & Telltale Games** - Original Minecraft: Story Mode.
 
-- pox1016 - Netflix Interactive to YouTube adaptation
+- **pox1016** - Netflix Interactive to YouTube adaptation
   
-- entitybtw - Inspiration and research from the PSP port (mcsm_portable).
+- **entitybtw** - Inspiration and research from the PSP port (mcsm_portable).
 
-- oreo639 - Base video playback research (3ds-theoraplayer).
+- **oreo639** - Base video playback research (3ds-theoraplayer).
 
-- devkitPro / libctru team - Nintendo 3DS toolchain & libraries.
+- **devkitPro / libctru team** - Nintendo 3DS toolchain & libraries.
