@@ -1,0 +1,232 @@
+# =========================================================
+# ГЛАВА 6: НЕЗЕР И ФИНАЛ ЭПИЗОДА 1 (ИСПРАВЛЕННАЯ СТРУКТУРА)
+# =========================================================
+
+# --- 1. Побег через Портал в Незер ---
+[01_petra_will_make_it]
+video = ch6_nether/01_petra_will_make_it.ogv
+total_duration = 118.4
+Y = Hands in the air! -> ch6_nether/02_hand_in_the_air
+A = Hold on tight!    -> ch6_nether/02_hold_on_tight
+
+[01_its_your_fault]
+video = ch6_nether/01_its_your_fault.ogv
+total_duration = 110.9
+Y = Hands in the air! -> ch6_nether/02_hand_in_the_air
+A = Hold on tight!    -> ch6_nether/02_hold_on_tight
+
+# --- 2. Вагонетки в Незере ---
+[02_hand_in_the_air]
+video = ch6_nether/02_hand_in_the_air.ogv
+total_duration = 166.6
+Y = Yeah, it's awful. -> ch6_nether/03_yeah_its_awful
+A = It was fine.      -> ch6_nether/03_it_was_fine
+
+[02_hold_on_tight]
+video = ch6_nether/02_hold_on_tight.ogv
+total_duration = 166.9
+Y = Yeah, it's awful. -> ch6_nether/03_yeah_its_awful
+A = It was fine.      -> ch6_nether/03_it_was_fine
+
+# --- 3. Выход из портала на болоте ---
+[03_yeah_its_awful]
+video = ch6_nether/03_yeah_its_awful.ogv
+total_duration = 93.2
+Y = I'll go first. -> ch6_nether/04_ill_go_first
+A = You can do it. -> ch6_nether/04_u_can_do_it
+
+[03_it_was_fine]
+video = ch6_nether/03_it_was_fine.ogv
+total_duration = 98.6
+Y = I'll go first. -> ch6_nether/04_ill_go_first
+A = You can do it. -> ch6_nether/04_u_can_do_it
+
+# --- 4. Выбор ночлега: Домик на дереве VS Землянка ---
+[04_ill_go_first]
+video = ch6_nether/04_ill_go_first.ogv
+total_duration = 135.1
+Y = Build a treehouse. -> ch6_nether/05_build_treehouse
+A = Build a dirt hut.  -> ch6_nether/05_build_dirt_hut
+
+[04_u_can_do_it]
+video = ch6_nether/04_u_can_do_it.ogv
+total_duration = 129.2
+Y = Build a treehouse. -> ch6_nether/05_build_treehouse
+A = Build a dirt hut.  -> ch6_nether/05_build_dirt_hut
+
+# --- 5. Постройка укрытия (Выставляет флаг shelter!) ---
+[05_build_treehouse]
+video = ch6_nether/05_build_treehouse.ogv
+total_duration = 97.0
+set_flag = shelter:treehouse
+Y = Give cookie. -> ch6_nether/06_give_cookie_treehouse
+A = Keep cookie. -> ch6_nether/06_keep_cookie_treehouse
+
+[05_build_dirt_hut]
+video = ch6_nether/05_build_dirt_hut.ogv
+total_duration = 96.7
+set_flag = shelter:dirt_hut
+Y = Give cookie. -> ch6_nether/06_give_cookie_dirt_hut
+A = Keep cookie. -> ch6_nether/06_keep_cookie_dirt_hut_
+
+# Ветка Домика на дереве:
+[06_give_cookie_treehouse]
+video = ch6_nether/06_give_cookie_treehouse.ogv
+total_duration = 147.1
+Y = Stay here.     -> ch6_nether/07_stay_here_treehouse
+A = You should go. -> ch6_nether/07_u_should_go_treehouse
+
+[06_keep_cookie_treehouse]
+video = ch6_nether/06_keep_cookie_treehouse.ogv
+total_duration = 123.6
+Y = Stay here.     -> ch6_nether/07_stay_here_treehouse
+A = You should go. -> ch6_nether/07_u_should_go_treehouse
+
+# Ветка Землянки:
+[06_give_cookie_dirt_hut]
+video = ch6_nether/06_give_cookie_dirt_hut.ogv
+total_duration = 147.1
+Y = Stay here.     -> ch6_nether/07_stay_here_dirt_hut
+A = You should go. -> ch6_nether/07_u_should_go_dirt_house
+
+[06_keep_cookie_dirt_hut_]
+video = ch6_nether/06_keep_cookie_dirt_hut_.ogv
+total_duration = 123.6
+Y = Stay here.     -> ch6_nether/07_stay_here_dirt_hut
+A = You should go. -> ch6_nether/07_u_should_go_dirt_house
+
+# Ветка А: Лукас остался с нами -> СРАЗУ идем в храм на крафт оружия (сцена 08)!
+[07_stay_here_treehouse]
+video = ch6_nether/07_stay_here_treehouse.ogv
+total_duration = 245.1
+Y = Craft a bow!          -> ch6_nether/08_craft_bow
+A = Craft a fishing pole! -> ch6_nether/08_craft_fishing_pole
+
+[07_stay_here_dirt_hut]
+video = ch6_nether/07_stay_here_dirt_hut.ogv
+total_duration = 248.4
+Y = Craft a bow!          -> ch6_nether/08_craft_bow
+A = Craft a fishing pole! -> ch6_nether/08_craft_fishing_pole
+
+# Ветка Б: Лукаса прогнали -> диалог снаружи у входа (сцена 09)!
+[07_u_should_go_treehouse]
+video = ch6_nether/07_u_should_go_treehouse.ogv
+total_duration = 134.3
+Y = All is good.        -> ch6_nether/09_all_is_good
+A = Keep your distance. -> ch6_nether/09_keep_ur_distance
+
+[07_u_should_go_dirt_house]
+video = ch6_nether/07_u_should_go_dirt_house.ogv
+total_duration = 140.8
+Y = All is good.        -> ch6_nether/09_all_is_good
+A = Keep your distance. -> ch6_nether/09_keep_ur_distance
+
+[08_craft_bow]
+video = ch6_nether/08_craft_bow.ogv
+total_duration = 116.4
+Y = Ivor isn't a hero.   -> ch6_nether/10_ivor_isnt_a_hero
+A = This explains a lot. -> ch6_nether/10_this_explains_a_lot
+
+[08_craft_fishing_pole]
+video = ch6_nether/08_craft_fishing_pole.ogv
+total_duration = 115.1
+Y = Ivor isn't a hero.   -> ch6_nether/10_ivor_isnt_a_hero
+A = This explains a lot. -> ch6_nether/10_this_explains_a_lot
+
+[09_all_is_good]
+video = ch6_nether/09_all_is_good.ogv
+total_duration = 187.4
+Y = Craft a bow!          -> ch6_nether/08_craft_bow
+A = Craft a fishing pole! -> ch6_nether/08_craft_fishing_pole
+
+[09_keep_ur_distance]
+video = ch6_nether/09_keep_ur_distance.ogv
+total_duration = 184.4
+Y = Craft a bow!          -> ch6_nether/08_craft_bow
+A = Craft a fishing pole! -> ch6_nether/08_craft_fishing_pole
+
+[10_ivor_isnt_a_hero]
+video = ch6_nether/10_ivor_isnt_a_hero.ogv
+total_duration = 92.9
+Y = Pedestal -> ch6_nether/11_pedestal
+X = Axel     -> ch6_nether/11_axel
+A = Olivia   -> ch6_nether/11_olivia
+B = Lukas    -> ch6_nether/11_lukas
+
+[10_this_explains_a_lot]
+video = ch6_nether/10_this_explains_a_lot.ogv
+total_duration = 98.5
+Y = Pedestal -> ch6_nether/11_pedestal
+X = Axel     -> ch6_nether/11_axel
+A = Olivia   -> ch6_nether/11_olivia
+B = Lukas    -> ch6_nether/11_lukas
+
+# Разговор с Акселем (Аксель исключен из списка)
+[11_axel]
+video = ch6_nether/11_axel.ogv
+total_duration = 39.9
+Y = Pedestal -> ch6_nether/11_pedestal
+A = Olivia   -> ch6_nether/11_olivia
+B = Lukas    -> ch6_nether/11_lukas
+
+# Разговор с Оливией (Оливия исключена из списка)
+[11_olivia]
+video = ch6_nether/11_olivia.ogv
+total_duration = 43.9
+Y = Pedestal -> ch6_nether/11_pedestal
+X = Axel     -> ch6_nether/11_axel
+B = Lukas    -> ch6_nether/11_lukas
+
+# Разговор с Лукасом (Лукас исключен из списка)
+[11_lukas]
+video = ch6_nether/11_lukas.ogv
+total_duration = 42.1
+Y = Pedestal -> ch6_nether/11_pedestal
+X = Axel     -> ch6_nether/11_axel
+A = Olivia   -> ch6_nether/11_olivia
+
+[11_pedestal]
+video = ch6_nether/11_pedestal.ogv
+total_duration = 43.4
+Y = Levers -> ch6_nether/12_levers
+X = Axel   -> ch6_nether/12_axel
+A = Olivia -> ch6_nether/12_olivia
+B = Lukas  -> ch6_nether/12_lukas
+
+[12_axel]
+video = ch6_nether/12_axel.ogv
+total_duration = 40.0
+Y = Levers -> ch6_nether/12_levers
+A = Olivia -> ch6_nether/12_olivia
+B = Lukas  -> ch6_nether/12_lukas
+
+[12_olivia]
+video = ch6_nether/12_olivia.ogv
+total_duration = 43.9
+Y = Levers -> ch6_nether/12_levers
+X = Axel   -> ch6_nether/12_axel
+B = Lukas  -> ch6_nether/12_lukas
+
+[12_lukas]
+video = ch6_nether/12_lukas.ogv
+total_duration = 41.9
+Y = Levers -> ch6_nether/12_levers
+X = Axel   -> ch6_nether/12_axel
+A = Olivia -> ch6_nether/12_olivia
+
+# --- ФИНАЛЬНЫЙ КЛИФФХЭНГЕР ЭПИЗОДА 1: ВЫБОР РЫЧАГА ---
+[12_levers]
+video = ch6_nether/12_levers.ogv
+total_duration = 168.3
+Y = Go for Magnus!    -> ch6_nether/13_go_for_magnus
+A = Go for Ellegaard! -> ch6_nether/13_go_for_ellegaard
+
+[13_go_for_magnus]
+video = ch6_nether/13_go_for_magnus.ogv
+total_duration = 53.4
+next = credits
+
+[13_go_for_ellegaard]
+video = ch6_nether/13_go_for_ellegaard.ogv
+total_duration = 60.3
+next = credits

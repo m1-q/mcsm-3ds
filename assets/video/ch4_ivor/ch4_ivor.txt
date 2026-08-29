@@ -1,0 +1,171 @@
+[01_proud_of_you_withruben]
+video = ch4_ivor/01_proud_of_you_withruben.ogv
+total_duration = 95.4
+Y = I'm Jesse.   -> ch4_ivor/02_im_jesse_withruben
+A = Who are you? -> ch4_ivor/02_who_r_u_withruben
+
+[01_party_time_withruben]
+video = ch4_ivor/01_party_time_withruben.ogv
+total_duration = 97.3
+Y = I'm Jesse.   -> ch4_ivor/02_im_jesse_withruben
+A = Who are you? -> ch4_ivor/02_who_r_u_withruben
+
+[01_proud_of_you_noruben]
+video = ch4_ivor/01_proud_of_you_noruben.ogv
+total_duration = 95.4
+Y = I'm Jesse.   -> ch4_ivor/02_im_jesse_noruben
+A = Who are you? -> ch4_ivor/02_who_r_u_noruben
+
+[01_party_time_noruben]
+video = ch4_ivor/01_party_time_noruben.ogv
+total_duration = 97.3
+Y = I'm Jesse.   -> ch4_ivor/02_im_jesse_noruben
+A = Who are you? -> ch4_ivor/02_who_r_u_noruben
+
+[02_im_jesse_withruben]
+video = ch4_ivor/02_im_jesse_withruben.ogv
+total_duration = 84.7
+Y = I'm cool if he is. -> ch4_ivor/03_im_cool_if_he_is_withruben
+A = Got a bad feeling. -> ch4_ivor/03_got_a_bad_feeling_withruben
+
+[02_who_r_u_withruben]
+video = ch4_ivor/02_who_r_u_withruben.ogv
+total_duration = 88.9
+Y = I'm cool if he is. -> ch4_ivor/03_im_cool_if_he_is_withruben
+A = Got a bad feeling. -> ch4_ivor/03_got_a_bad_feeling_withruben
+
+[02_im_jesse_noruben]
+video = ch4_ivor/02_im_jesse_noruben.ogv
+total_duration = 84.7
+Y = I'm cool if he is. -> ch4_ivor/03_im_cool_if_he_is_noruben
+A = Got a bad feeling. -> ch4_ivor/03_got_a_bad_feeling_noruben
+
+[02_who_r_u_noruben]
+video = ch4_ivor/02_who_r_u_noruben.ogv
+total_duration = 88.9
+Y = I'm cool if he is. -> ch4_ivor/03_im_cool_if_he_is_noruben
+A = Got a bad feeling. -> ch4_ivor/03_got_a_bad_feeling_noruben
+
+[03_im_cool_if_he_is_withruben]
+video = ch4_ivor/03_im_cool_if_he_is_withruben.ogv
+total_duration = 117.1
+Y = Your friend hurt my pig! -> ch4_ivor/04_your_friend_hurt_my_pig_withruben
+A = Your machine was cool.   -> ch4_ivor/04_your_machine_was_cool_withruben
+
+[03_got_a_bad_feeling_withruben]
+video = ch4_ivor/03_got_a_bad_feeling_withruben.ogv
+total_duration = 120.4
+Y = Your friend hurt my pig! -> ch4_ivor/04_your_friend_hurt_my_pig_withruben
+A = Your machine was cool.   -> ch4_ivor/04_your_machine_was_cool_withruben
+
+[03_im_cool_if_he_is_noruben]
+video = ch4_ivor/03_im_cool_if_he_is_noruben.ogv
+total_duration = 117.1
+Y = Your friend hurt my pig! -> ch4_ivor/04_your_friend_hurt_my_pig_noruben
+A = Your machine was cool.   -> ch4_ivor/04_your_machine_was_cool_noruben
+
+[03_got_a_bad_feeling_noruben]
+video = ch4_ivor/03_got_a_bad_feeling_noruben.ogv
+total_duration = 120.4
+Y = Your friend hurt my pig! -> ch4_ivor/04_your_friend_hurt_my_pig_noruben
+A = Your machine was cool.   -> ch4_ivor/04_your_machine_was_cool_noruben
+
+[04_your_friend_hurt_my_pig_withruben]
+video = ch4_ivor/04_your_friend_hurt_my_pig_withruben.ogv
+total_duration = 174.2
+Y = Threaten.    -> ch4_ivor/05_threaten_withruben
+A = Offer sword. -> ch4_ivor/05_offer_sword_withruben
+
+[04_your_machine_was_cool_withruben]
+video = ch4_ivor/04_your_machine_was_cool_withruben.ogv
+total_duration = 173.2
+Y = Threaten.    -> ch4_ivor/05_threaten_withruben
+A = Offer sword. -> ch4_ivor/05_offer_sword_withruben
+
+[04_your_friend_hurt_my_pig_noruben]
+video = ch4_ivor/04_your_friend_hurt_my_pig_noruben.ogv
+total_duration = 185.3
+Y = Threaten.    -> ch4_ivor/05_threaten_noruben
+A = Offer sword. -> ch4_ivor/05_offer_sword_noruben
+
+[04_your_machine_was_cool_noruben]
+video = ch4_ivor/04_your_machine_was_cool_noruben.ogv
+total_duration = 184.3
+Y = Threaten.    -> ch4_ivor/05_threaten_noruben
+A = Offer sword. -> ch4_ivor/05_offer_sword_noruben
+
+[05_threaten_withruben]
+video = ch4_ivor/05_threaten_withruben.ogv
+total_duration = 140.6
+Y = Slime           -> ch4_ivor/06_slime
+A = Chicken machine -> ch4_ivor/06_chicken_machine_1
+
+[05_offer_sword_withruben]
+video = ch4_ivor/05_offer_sword_withruben.ogv
+total_duration = 134.3
+Y = Slime           -> ch4_ivor/06_slime
+A = Chicken machine -> ch4_ivor/06_chicken_machine_1
+
+[05_threaten_noruben]
+video = ch4_ivor/05_threaten_noruben.ogv
+total_duration = 130.2
+Y = Slime           -> ch4_ivor/06_slime
+A = Chicken machine -> ch4_ivor/06_chicken_machine_1
+
+[05_offer_sword_noruben]
+video = ch4_ivor/05_offer_sword_noruben.ogv
+total_duration = 132.8
+Y = Slime           -> ch4_ivor/06_slime
+A = Chicken machine -> ch4_ivor/06_chicken_machine_1
+
+[06_chicken_machine_1]
+video = ch4_ivor/06_chicken_machine_1.ogv
+total_duration = 39.9
+Y = Slime             -> ch4_ivor/06_slime
+A = Chicken machine 2 -> ch4_ivor/06_chicken_machine_2
+
+[06_chicken_machine_2]
+video = ch4_ivor/06_chicken_machine_2.ogv
+total_duration = 37.3
+Y = Slime           -> ch4_ivor/06_slime
+A = Chicken machine -> ch4_ivor/06_chicken_machine_1
+
+[06_slime]
+video = ch4_ivor/06_slime.ogv
+total_duration = 67.2
+set_flag = slime:true
+Y = Crafting Table  -> ch4_ivor/06_crafting_table
+X = Lukas           -> ch4_ivor/06_lukas
+A = Chicken machine -> ch4_ivor/06_chicken_machine_2
+
+[06_crafting_table]
+video = ch4_ivor/06_crafting_table.ogv
+total_duration = 37.0
+Y = Lukas           -> ch4_ivor/06_lukas
+A = Chicken machine -> ch4_ivor/06_chicken_machine_2
+
+[06_lukas]
+video = ch4_ivor/06_lukas.ogv
+total_duration = 116.2
+Y = We ask politely. -> ch4_ivor/07_we_ask_politely_{sword}
+A = We get payback.  -> ch4_ivor/07_we_get_payback_{sword}
+
+[07_we_ask_politely_withsword]
+video = ch4_ivor/07_we_ask_politely_withsword.ogv
+total_duration = 126.0
+next = ch5_wither/01_leave_it_alone
+
+[07_we_get_payback_withsword]
+video = ch4_ivor/07_we_get_payback_withsword.ogv
+total_duration = 118.9
+next = ch5_wither/01_leave_it_alone
+
+[07_we_ask_politely_nosword]
+video = ch4_ivor/07_we_ask_politely_nosword.ogv
+total_duration = 137.6
+next = ch5_wither/01_leave_it_alone
+
+[07_we_get_payback_nosword]
+video = ch4_ivor/07_we_get_payback_nosword.ogv
+total_duration = 130.5
+next = ch5_wither/01_leave_it_alone

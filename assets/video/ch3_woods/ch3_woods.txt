@@ -1,0 +1,141 @@
+[01_water_well]
+video = ch3_woods/01_water_well.ogv
+total_duration = 38.1
+Y = Smoke trail -> ch3_woods/01_smoke_trail
+X = Pigs        -> ch3_woods/01_pigs
+A = Bush        -> ch3_woods/01_bush_
+
+[01_pigs]
+video = ch3_woods/01_pigs.ogv
+total_duration = 42.9
+Y = Water well  -> ch3_woods/01_water_well
+X = Smoke trail -> ch3_woods/01_smoke_trail
+A = Bush        -> ch3_woods/01_bush_
+
+[01_bush_]
+video = ch3_woods/01_bush_.ogv
+total_duration = 39.8
+Y = Water well  -> ch3_woods/01_water_well
+X = Pigs        -> ch3_woods/01_pigs
+A = Smoke trail -> ch3_woods/01_smoke_trail
+
+[01_smoke_trail]
+video = ch3_woods/01_smoke_trail.ogv
+total_duration = 41.1
+Y = Tall grass  -> ch3_woods/01_tall_grass
+X = Pigs        -> ch3_woods/01_pigs
+A = Water well  -> ch3_woods/01_water_well
+B = Bush        -> ch3_woods/01_bush_
+
+[01_tall_grass]
+video = ch3_woods/01_tall_grass.ogv
+total_duration = 100.4
+Y = Stay close, I'll protect you! -> ch3_woods/02_stay_close_ill_protect_you
+A = Run, I'll distract them!     -> ch3_woods/02_run_ill_distract_them
+
+[02_stay_close_ill_protect_you]
+video = ch3_woods/02_stay_close_ill_protect_you.ogv
+total_duration = 140.2
+set_flag = reuben:withruben
+Y = I'm all in!         -> ch3_woods/03_im_all_in_withruben
+A = What's in it for me? -> ch3_woods/03_whats_in_it_for_me_withruben
+
+[02_run_ill_distract_them]
+video = ch3_woods/02_run_ill_distract_them.ogv
+total_duration = 132.7
+set_flag = reuben:noruben
+Y = I'm all in!         -> ch3_woods/03_im_all_in_noruben
+A = What's in it for me? -> ch3_woods/03_whats_in_it_for_me_noruben
+
+[03_im_all_in_withruben]
+video = ch3_woods/03_im_all_in_withruben.ogv
+total_duration = 70.0
+Y = Craft a stone sword! -> ch3_woods/04_craft_sword_withruben
+A = Craft a lever!       -> ch3_woods/04_craft_lever_withruben
+
+[03_whats_in_it_for_me_withruben]
+video = ch3_woods/03_whats_in_it_for_me_withruben.ogv
+total_duration = 67.5
+Y = Craft a stone sword! -> ch3_woods/04_craft_sword_withruben
+A = Craft a lever!       -> ch3_woods/04_craft_lever_withruben
+
+[03_im_all_in_noruben]
+video = ch3_woods/03_im_all_in_noruben.ogv
+total_duration = 70.0
+Y = Craft a stone sword! -> ch3_woods/04_craft_sword_noruben
+A = Craft a lever!       -> ch3_woods/04_craft_lever_noruben
+
+[03_whats_in_it_for_me_noruben]
+video = ch3_woods/03_whats_in_it_for_me_noruben.ogv
+total_duration = 67.5
+Y = Craft a stone sword! -> ch3_woods/04_craft_sword_noruben
+A = Craft a lever!       -> ch3_woods/04_craft_lever_noruben
+
+# --- Автоподстановка {build} при прыжке / бое ---
+[04_craft_sword_withruben]
+video = ch3_woods/04_craft_sword_withruben.ogv
+total_duration = 113.8
+set_flag = sword:withsword
+Y = Jump!  -> ch3_woods/05_jump_withruben_{build}
+A = Fight! -> ch3_woods/05_fight_withruben_{build}
+
+[04_craft_lever_withruben]
+video = ch3_woods/04_craft_lever_withruben.ogv
+total_duration = 130.1
+set_flag = sword:nosword
+Y = Jump!  -> ch3_woods/05_jump_withruben_{build}
+A = Fight! -> ch3_woods/05_fight_withruben_{build}
+
+[04_craft_sword_noruben]
+video = ch3_woods/04_craft_sword_noruben.ogv
+total_duration = 113.8
+set_flag = sword:withsword
+Y = Jump!  -> ch3_woods/05_jump_noruben_{build}
+A = Fight! -> ch3_woods/05_fight_noruben_{build}
+
+[04_craft_lever_noruben]
+video = ch3_woods/04_craft_lever_noruben.ogv
+total_duration = 130.1
+set_flag = sword:nosword
+Y = Jump!  -> ch3_woods/05_jump_noruben_{build}
+A = Fight! -> ch3_woods/05_fight_noruben_{build}
+
+[05_jump_withruben_creeper]
+video = ch3_woods/05_jump_withruben_creeper.ogv
+total_duration = 149.1
+next = ch4_ivor/01_proud_of_you_withruben
+
+[05_fight_withruben_creeper]
+video = ch3_woods/05_fight_withruben_creeper.ogv
+total_duration = 160.8
+next = ch4_ivor/01_proud_of_you_withruben
+
+[05_jump_noruben_creeper]
+video = ch3_woods/05_jump_noruben_creeper.ogv
+total_duration = 157.1
+next = ch4_ivor/01_proud_of_you_noruben
+
+[05_fight_noruben_creeper]
+video = ch3_woods/05_fight_noruben_creeper.ogv
+total_duration = 168.9
+next = ch4_ivor/01_proud_of_you_noruben
+
+[05_jump_withruben_enderman]
+video = ch3_woods/05_jump_withruben_enderman.ogv
+total_duration = 149.1
+next = ch4_ivor/01_proud_of_you_withruben
+
+[05_fight_withruben_enderman]
+video = ch3_woods/05_fight_withruben_enderman.ogv
+total_duration = 160.8
+next = ch4_ivor/01_proud_of_you_withruben
+
+[05_jump_noruben_enderman]
+video = ch3_woods/05_jump_noruben_enderman.ogv
+total_duration = 157.1
+next = ch4_ivor/01_proud_of_you_noruben
+
+[05_fight_noruben_enderman]
+video = ch3_woods/05_fight_noruben_enderman.ogv
+total_duration = 168.9
+next = ch4_ivor/01_proud_of_you_noruben

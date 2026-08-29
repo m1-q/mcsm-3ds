@@ -1,0 +1,57 @@
+[01_intro]
+video = ch1_treehouse/01_intro.ogv
+total_duration = 179.9
+Y = 100 Chicken-sized Zombies -> ch1_treehouse/02_zombies
+A = 10 Zombie-sized Chickens  -> ch1_treehouse/02_chickens
+
+[02_zombies]
+video = ch1_treehouse/02_zombies.ogv
+total_duration = 103.8
+Y = Cool Mask        -> ch1_treehouse/03_cool_mask
+A = Not funny, Axel  -> ch1_treehouse/03_not_funny
+
+[02_chickens]
+video = ch1_treehouse/02_chickens.ogv
+total_duration = 99.3
+Y = Cool Mask        -> ch1_treehouse/03_cool_mask
+A = Not funny, Axel  -> ch1_treehouse/03_not_funny
+
+[03_cool_mask]
+video = ch1_treehouse/03_cool_mask.ogv
+total_duration = 148.6
+Y = Gabriel is awesome! -> ch1_treehouse/04_gabriel_awesome
+A = No big deal         -> ch1_treehouse/04_no_big_deal
+
+[03_not_funny]
+video = ch1_treehouse/03_not_funny.ogv
+total_duration = 146.3
+Y = Gabriel is awesome! -> ch1_treehouse/04_gabriel_awesome
+A = No big deal         -> ch1_treehouse/04_no_big_deal
+
+[04_gabriel_awesome]
+video = ch1_treehouse/04_gabriel_awesome.ogv
+total_duration = 108.0
+Y = Build a Creeper   -> ch1_treehouse/05_build_creeper
+A = Build an Enderman -> ch1_treehouse/05_build_enderman
+
+[04_no_big_deal]
+video = ch1_treehouse/04_no_big_deal.ogv
+total_duration = 108.1
+Y = Build a Creeper   -> ch1_treehouse/05_build_creeper
+A = Build an Enderman -> ch1_treehouse/05_build_enderman
+
+[05_build_creeper]
+video = ch1_treehouse/05_build_creeper.ogv
+total_duration = 173.5
+set_flag = build:creeper
+Y = Order of the Pig   -> ch2_endercon/01_order_of_the_pig_creeper
+X = The Dead Enders    -> ch2_endercon/01_dead_enders_creeper
+A = The Nether Maniacs -> ch2_endercon/01_nether_maniacs_creeper
+
+[05_build_enderman]
+video = ch1_treehouse/05_build_enderman.ogv
+total_duration = 173.8
+set_flag = build:enderman
+Y = Order of the Pig   -> ch2_endercon/01_order_of_the_pig_enderman
+X = The Dead Enders    -> ch2_endercon/01_dead_enders_enderman
+A = The Nether Maniacs -> ch2_endercon/01_nether_maniacs_enderman

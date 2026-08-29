@@ -1,0 +1,159 @@
+[01_leave_it_alone]
+video = ch5_wither/01_leave_it_alone.ogv
+total_duration = 183.2
+Y = Warn Olivia. -> ch5_wither/02_warn_olivia
+A = Stay quiet.  -> ch5_wither/02_stay_quiet
+
+[01_its_all_yours]
+video = ch5_wither/01_its_all_yours.ogv
+total_duration = 179.9
+Y = Warn Olivia. -> ch5_wither/02_warn_olivia
+A = Stay quiet.  -> ch5_wither/02_stay_quiet
+
+[02_warn_olivia]
+video = ch5_wither/02_warn_olivia.ogv
+total_duration = 158.9
+Y = I'm going after Lukas. -> ch5_wither/03_im_going_after_lukas
+A = Let's talk to Gabriel. -> ch5_wither/03_lets_talk_to_gabriel
+
+[02_stay_quiet]
+video = ch5_wither/02_stay_quiet.ogv
+total_duration = 167.5
+Y = I'm going after Lukas. -> ch5_wither/03_im_going_after_lukas
+A = Let's talk to Gabriel. -> ch5_wither/03_lets_talk_to_gabriel
+
+[03_im_going_after_lukas]
+video = ch5_wither/03_im_going_after_lukas.ogv
+total_duration = 99.7
+set_flag = lukas:withlukas
+Y = Sit tight.  -> ch5_wither/04_sit_tight
+A = Run for it. -> ch5_wither/04_run_for_it
+
+[04_sit_tight]
+video = ch5_wither/04_sit_tight.ogv
+total_duration = 138.2
+Y = Somebody stop him! -> ch5_wither/05_somebody_stop_him_withlukas
+A = This can't be good. -> ch5_wither/05_this_cant_be_good_withlukas
+
+[04_run_for_it]
+video = ch5_wither/04_run_for_it.ogv
+total_duration = 134.3
+Y = Somebody stop him! -> ch5_wither/05_somebody_stop_him_withlukas
+A = This can't be good. -> ch5_wither/05_this_cant_be_good_withlukas
+
+[03_lets_talk_to_gabriel]
+video = ch5_wither/03_lets_talk_to_gabriel.ogv
+total_duration = 125.0
+set_flag = lukas:nolukas
+Y = Somebody stop him! -> ch5_wither/05_somebody_stop_him_nolukas
+A = This can't be good. -> ch5_wither/05_this_cant_be_good_nolukas
+
+[05_somebody_stop_him_withlukas]
+video = ch5_wither/05_somebody_stop_him_withlukas.ogv
+total_duration = 113.1
+Y = He can't stop it!     -> ch5_wither/06_he_cant_stop_it_withlukas
+A = What are you doing?! -> ch5_wither/06_what_r_u_doing_withlukas
+
+[05_this_cant_be_good_withlukas]
+video = ch5_wither/05_this_cant_be_good_withlukas.ogv
+total_duration = 112.5
+Y = He can't stop it!     -> ch5_wither/06_he_cant_stop_it_withlukas
+A = What are you doing?! -> ch5_wither/06_what_r_u_doing_withlukas
+
+[05_somebody_stop_him_nolukas]
+video = ch5_wither/05_somebody_stop_him_nolukas.ogv
+total_duration = 113.1
+Y = He can't stop it!     -> ch5_wither/06_he_cant_stop_it_nolukas
+A = What are you doing?! -> ch5_wither/06_what_r_u_doing_nolukas
+
+[05_this_cant_be_good_nolukas]
+video = ch5_wither/05_this_cant_be_good_nolukas.ogv
+total_duration = 112.5
+Y = He can't stop it!     -> ch5_wither/06_he_cant_stop_it_nolukas
+A = What are you doing?! -> ch5_wither/06_what_r_u_doing_nolukas
+
+# --- Автоподстановка {build} в сценах Бури ---
+[06_he_cant_stop_it_withlukas]
+video = ch5_wither/06_he_cant_stop_it_withlukas.ogv
+total_duration = 150.1
+Y = Help Lukas.       -> ch5_wither/07_help_lukas_withlukas_{build}
+A = Follow Gabriel.   -> ch5_wither/07_follow_gabriel_{build}
+
+[06_what_r_u_doing_withlukas]
+video = ch5_wither/06_what_r_u_doing_withlukas.ogv
+total_duration = 150.0
+Y = Help Lukas.       -> ch5_wither/07_help_lukas_withlukas_{build}
+A = Follow Gabriel.   -> ch5_wither/07_follow_gabriel_{build}
+
+[06_he_cant_stop_it_nolukas]
+video = ch5_wither/06_he_cant_stop_it_nolukas.ogv
+total_duration = 150.1
+Y = Help Lukas.       -> ch5_wither/07_help_lukas_nolukas_{build}
+A = Follow Gabriel.   -> ch5_wither/07_follow_gabriel_{build}
+
+[06_what_r_u_doing_nolukas]
+video = ch5_wither/06_what_r_u_doing_nolukas.ogv
+total_duration = 150.0
+Y = Help Lukas.       -> ch5_wither/07_help_lukas_nolukas_{build}
+A = Follow Gabriel.   -> ch5_wither/07_follow_gabriel_{build}
+
+[07_help_lukas_withlukas_creeper]
+video = ch5_wither/07_help_lukas_withlukas_creeper.ogv
+total_duration = 175.7
+Y = Where are they? -> ch5_wither/08_where_r_they
+A = But why me?     -> ch5_wither/08_but_why_me
+
+[07_help_lukas_nolukas_creeper]
+video = ch5_wither/07_help_lukas_nolukas_creeper.ogv
+total_duration = 175.1
+Y = Where are they? -> ch5_wither/08_where_r_they
+A = But why me?     -> ch5_wither/08_but_why_me
+
+[07_follow_gabriel_creeper]
+video = ch5_wither/07_follow_gabriel_creeper.ogv
+total_duration = 179.1
+Y = Where are they? -> ch5_wither/08_where_r_they
+A = But why me?     -> ch5_wither/08_but_why_me
+
+[07_help_lukas_withlukas_enderman]
+video = ch5_wither/07_help_lukas_withlukas_enderman.ogv
+total_duration = 175.1
+Y = Where are they? -> ch5_wither/08_where_r_they
+A = But why me?     -> ch5_wither/08_but_why_me
+
+[07_help_lukas_nolukas_enderman]
+video = ch5_wither/07_help_lukas_nolukas_enderman.ogv
+total_duration = 174.5
+Y = Where are they? -> ch5_wither/08_where_r_they
+A = But why me?     -> ch5_wither/08_but_why_me
+
+[07_follow_gabriel_enderman]
+video = ch5_wither/07_follow_gabriel_enderman.ogv
+total_duration = 178.5
+Y = Where are they? -> ch5_wither/08_where_r_they
+A = But why me?     -> ch5_wither/08_but_why_me
+
+[08_where_r_they]
+video = ch5_wither/08_where_r_they.ogv
+total_duration = 65.5
+Y = Save Gabriel! -> ch5_wither/09_save_gabriel
+A = Save Petra!   -> ch5_wither/09_save_petra
+
+[08_but_why_me]
+video = ch5_wither/08_but_why_me.ogv
+total_duration = 66.0
+Y = Save Gabriel! -> ch5_wither/09_save_gabriel
+A = Save Petra!   -> ch5_wither/09_save_petra
+
+# --- Главный выбор финала Главы 5 ---
+[09_save_gabriel]
+video = ch5_wither/09_save_gabriel.ogv
+total_duration = 154.1
+set_flag = saved:gabriel
+next = ch6_nether/01_petra_will_make_it
+
+[09_save_petra]
+video = ch5_wither/09_save_petra.ogv
+total_duration = 156.4
+set_flag = saved:petra
+next = ch6_nether/01_its_your_fault

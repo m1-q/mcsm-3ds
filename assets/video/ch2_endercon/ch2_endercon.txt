@@ -1,0 +1,91 @@
+[01_order_of_the_pig_creeper]
+video = ch2_endercon/01_order_of_the_pig_creeper.ogv
+total_duration = 145.3
+Y = We're going to crush you! -> ch2_endercon/02_crush_creeper
+A = May the best team win     -> ch2_endercon/02_win_creeper
+
+[01_dead_enders_creeper]
+video = ch2_endercon/01_dead_enders_creeper.ogv
+total_duration = 141.4
+Y = We're going to crush you! -> ch2_endercon/02_crush_creeper
+A = May the best team win     -> ch2_endercon/02_win_creeper
+
+[01_nether_maniacs_creeper]
+video = ch2_endercon/01_nether_maniacs_creeper.ogv
+total_duration = 145.6
+Y = We're going to crush you! -> ch2_endercon/02_crush_creeper
+A = May the best team win     -> ch2_endercon/02_win_creeper
+
+[01_order_of_the_pig_enderman]
+video = ch2_endercon/01_order_of_the_pig_enderman.ogv
+total_duration = 146.3
+Y = We're going to crush you! -> ch2_endercon/02_crush_enderman
+A = May the best team win     -> ch2_endercon/02_win_enderman
+
+[01_dead_enders_enderman]
+video = ch2_endercon/01_dead_enders_enderman.ogv
+total_duration = 142.3
+Y = We're going to crush you! -> ch2_endercon/02_crush_enderman
+A = May the best team win     -> ch2_endercon/02_win_enderman
+
+[01_nether_maniacs_enderman]
+video = ch2_endercon/01_nether_maniacs_enderman.ogv
+total_duration = 146.5
+Y = We're going to crush you! -> ch2_endercon/02_crush_enderman
+A = May the best team win     -> ch2_endercon/02_win_enderman
+
+[02_crush_creeper]
+video = ch2_endercon/02_were_going_to_crush_you.ogv
+total_duration = 71.3
+Y = Warrior whip! -> ch2_endercon/03_warrior_whip_creeper
+A = Redstone rap! -> ch2_endercon/03_redstone_rap_creeper
+
+[02_win_creeper]
+video = ch2_endercon/02_may_the_best_team_win.ogv
+total_duration = 56.6
+Y = Warrior whip! -> ch2_endercon/03_warrior_whip_creeper
+A = Redstone rap! -> ch2_endercon/03_redstone_rap_creeper
+
+[02_crush_enderman]
+video = ch2_endercon/02_were_going_to_crush_you.ogv
+total_duration = 71.3
+Y = Warrior whip! -> ch2_endercon/03_warrior_whip_enderman
+A = Redstone rap! -> ch2_endercon/03_redstone_rap_enderman
+
+[02_win_enderman]
+video = ch2_endercon/02_may_the_best_team_win.ogv
+total_duration = 56.6
+Y = Warrior whip! -> ch2_endercon/03_warrior_whip_enderman
+A = Redstone rap! -> ch2_endercon/03_redstone_rap_enderman
+
+[03_warrior_whip_creeper]
+video = ch2_endercon/03_warrior_whip_creeper.ogv
+total_duration = 180.5
+Y = Water well  -> ch3_woods/01_water_well
+X = Pigs        -> ch3_woods/01_pigs
+A = Smoke trail -> ch3_woods/01_smoke_trail
+B = Bush        -> ch3_woods/01_bush_
+
+[03_redstone_rap_creeper]
+video = ch2_endercon/03_redstone_rap_creeper.ogv
+total_duration = 182.0
+Y = Water well  -> ch3_woods/01_water_well
+X = Pigs        -> ch3_woods/01_pigs
+A = Smoke trail -> ch3_woods/01_smoke_trail
+B = Bush        -> ch3_woods/01_bush_
+
+[03_warrior_whip_enderman]
+video = ch2_endercon/03_warrior_whip_enderman.ogv
+total_duration = 180.1
+Y = Water well  -> ch3_woods/01_water_well
+X = Pigs        -> ch3_woods/01_pigs
+A = Smoke trail -> ch3_woods/01_smoke_trail
+B = Bush        -> ch3_woods/01_bush_
+
+[03_redstone_rap_enderman]
+video = ch2_endercon/03_redstone_rap_enderman.ogv
+total_duration = 181.6
+Y = Water well  -> ch3_woods/01_water_well
+X = Pigs        -> ch3_woods/01_pigs
+A = Smoke trail -> ch3_woods/01_smoke_trail
+B = Bush        -> ch3_woods/01_bush_
