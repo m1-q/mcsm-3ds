@@ -14,16 +14,38 @@ Inspired by [mcsm_portable](https://github.com/entitybtw/mcsm_portable) (PSP por
 ---
 
 
-## Features
+## 🗺️ Roadmap
 
+### v1.0.0-ep1 (Released)
+- [x] Fully playable Episode 1 with all branching storylines and choices
+- [x] Title screen, Main Menu, and in-game Pause menu (`START`)
+- [x] Hybrid 3-in-1 controls (ABXY, D-Pad, and Touchscreen)
+- [x] Custom *Minecraft Seven* font rendering (`.bcfnt`)
+- [x] Hardware-accelerated video playback (Theora/Y2R) & zero-CPU audio thread (Tremor)
+- [x] Persistent settings & autosave system
 
-* **Smooth Playback:** Hardware-accelerated video on the top screen at locked 24 FPS (works great on Old 2DS/3DS).
+### v1.0.x-ep1 (Fixes & QoL)
+- [ ] English set as default interface language
+- [ ] System sleep mode / lid close handling via `aptHook`
+- [ ] UI sound effects (Minecraft button clicks and navigation SFX)
+- [ ] Pop-up notification overlay (*"Jesse will remember that"*)
+- [ ] Seamless black fade transitions between video scenes
 
-* **Dual-Screen Layout:** Top screen for cinematic video, bottom screen for dialogue choices, timer, and UI.
+### v1.1.x-ep1 (Subtitles & Enhanced UI)
+- [ ] Subtitles engine (`.srt`) with character-specific text colors
+- [ ] Action QTE sequences ("Mash A" building moments)
+- [ ] Multiple save slots (Wii U / Switch style slot selector)
+- [ ] Dual-screen HUD elements (Dynamic Order Amulet & active item display)
+- [ ] Fast-forward option (`R` trigger) for previously watched scenes
+- [ ] Stereoscopic 3D depth effect for UI layers and subtitles
 
-* **Controls:** Choose answers using `ABXY`, `D-Pad + A`, or just tap the touchscreen
-
-* **Pause & Saves:** Built-in pause menu (`START`) and autosave for your story progress
+### v2.0.0+ (The Complete Season)
+- [ ] Modular Episode Manager
+- [ ] Cross-episode decision flag persistence
+- [ ] Video pipeline & script manifests for Episodes 2 through 5
+- [ ] Support for the Female Jesse story branch (`epX_fem`)
+- [ ] Modular localization system (partial UI, subtitles, and audio selection across languages)
+- [ ] C-Stick / Circle Pad Pro navigation support
 
 
 ---
